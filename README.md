@@ -23,7 +23,7 @@ C:\work> MWhich -var=INCLUDE stdio.h
 The following links is for the direct download of the 32 bit executable with
 an MD5 digest of the executable.
 
-Windows 32-bit Binary : [MWhich.exe](bin/MSync.exe)
+Windows 32-bit Binary : [MWhich.exe](bin/MWhich.exe)
 
 MD5 Digest for binary : [MWhich.exe.md5](bin/MWhich.exe.md5)
 
