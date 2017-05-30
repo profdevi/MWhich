@@ -18,7 +18,7 @@
 
 */
 
-//v1.4 copyright Comine.com 20170327M1019
+//v1.5 copyright Comine.com 20170530T1233
 #include "MStdLib.h"
 #include "MString.h"
 #include "MStringList.h"

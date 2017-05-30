@@ -18,7 +18,7 @@
 
 */
 
-//v1.4 copyright Comine.com 20170327M1019
+//v1.5 copyright Comine.com 20170530T1233
 #ifndef MFileSearch_h
 #define MFileSearch_h
 

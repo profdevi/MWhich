@@ -18,7 +18,7 @@
 
 */
 
-//v2.3 copyright Comine.com 20170328T1307
+//v2.4 copyright Comine.com 20170530T1240
 #include "MStdLib.h"
 #include "MCommandArg.h"
 #include "MString.h"
@@ -31,7 +31,7 @@
 //* Module Elements
 //******************************************************
 static const char *GApplicationName="MWhich";	// Used in Help
-static const char *GApplicationVersion="2.3";	// Used in Help
+static const char *GApplicationVersion="2.4";	// Used in Help
 
 ////////////////////////////////////////////////////
 static void GDisplayHelp(void);
@@ -126,6 +126,7 @@ static bool GSearchFileInEnvVar(const char *filename,const char *envar)
 	MStringList strlist;
 	if(filesearch.Search(filename,strlist)==false)
 		{
+		MStdPrintf("**Unable to find file %s\n",filename);
 		return false;
 		}
 
